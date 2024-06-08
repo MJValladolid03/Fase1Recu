@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título de los créditos -->
+    <TextView
+        android:id="@+id/creditsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créditos"
+        style="@style/CustomTitle" />
+
+    <!-- Contenido de los créditos -->
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/contenido"
+        android:textSize="16sp" />
+
+    <!-- Botón de volver -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:layout_marginTop="30dp"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        style="@style/CustomButton" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_startFragment_to_menuFragment" type="id" />
+    <item name="startButton" type="id" />
+    <item name="action_creditsFragment_to_menuFragment" type="id" />
+    <item name="action_loginFragment_to_menuFragment" type="id" />
+    <item name="action_menuFragment_to_creditsFragment" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="action_creditFragment_to_menuFragment" type="id" />
+    <item name="tabLayout" type="id" />
+</resources>

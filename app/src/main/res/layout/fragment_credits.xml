@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <!-- TextView para el título de los créditos -->
+    <TextView
+        android:id="@+id/creditsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créditos"
+        style="@style/CustomTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- TextView para el contenido de los créditos -->
+    <TextView
+        android:id="@+id/creditsContent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Este es el contenido de los créditos."
+        style="@style/CustomText"
+        app:layout_constraintTop_toBottomOf="@id/creditsTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/backButton" />
+
+    <!-- Button para volver -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        style="@style/CustomButton"
+        app:layout_constraintTop_toBottomOf="@id/creditsContent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
